@@ -615,10 +615,9 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImpo
 
 const NUM_OF_MONTHS_TO_CREATE = 3;
 class CalendarModal {
-    constructor(_renderer, _elementRef, params, modalCtrl, ref, calSvc) {
+    constructor(_renderer, _elementRef, modalCtrl, ref, calSvc) {
         this._renderer = _renderer;
         this._elementRef = _elementRef;
-        this.params = params;
         this.modalCtrl = modalCtrl;
         this.ref = ref;
         this.calSvc = calSvc;
@@ -824,7 +823,7 @@ class CalendarModal {
         return momentDate.original ? momentDate.original.time : index;
     }
 }
-CalendarModal.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0, type: CalendarModal, deps: [{ token: i0.Renderer2 }, { token: i0.ElementRef }, { token: i1.NavParams }, { token: i1.ModalController }, { token: i0.ChangeDetectorRef }, { token: CalendarService }], target: i0.ɵɵFactoryTarget.Component });
+CalendarModal.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.17", ngImport: i0, type: CalendarModal, deps: [{ token: i0.Renderer2 }, { token: i0.ElementRef }, { token: i1.ModalController }, { token: i0.ChangeDetectorRef }, { token: CalendarService }], target: i0.ɵɵFactoryTarget.Component });
 CalendarModal.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.17", type: CalendarModal, selector: "ion-calendar-modal", inputs: { options: "options" }, host: { properties: { "class.ion-page": "this.ionPage" } }, viewQueries: [{ propertyName: "content", first: true, predicate: IonContent, descendants: true, static: true }, { propertyName: "monthsEle", first: true, predicate: ["months"], descendants: true, static: true }], ngImport: i0, template: `
     <ion-header>
       <ion-toolbar>
@@ -973,7 +972,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.17", ngImpo
     </ion-footer>
   `,
                 }]
-        }], ctorParameters: function () { return [{ type: i0.Renderer2 }, { type: i0.ElementRef }, { type: i1.NavParams }, { type: i1.ModalController }, { type: i0.ChangeDetectorRef }, { type: CalendarService }]; }, propDecorators: { content: [{
+        }], ctorParameters: function () { return [{ type: i0.Renderer2 }, { type: i0.ElementRef }, { type: i1.ModalController }, { type: i0.ChangeDetectorRef }, { type: CalendarService }]; }, propDecorators: { content: [{
                 type: ViewChild,
                 args: [IonContent, { static: true }]
             }], monthsEle: [{

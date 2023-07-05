@@ -1,12 +1,11 @@
 import { ElementRef, ChangeDetectorRef, Renderer2, OnInit, AfterViewInit } from '@angular/core';
-import { NavParams, ModalController, IonContent } from '@ionic/angular';
+import { ModalController, IonContent } from '@ionic/angular';
 import { CalendarDay, CalendarMonth, CalendarModalOptions } from '../calendar.model';
 import { CalendarService } from '../services/calendar.service';
 import * as i0 from "@angular/core";
 export declare class CalendarModal implements OnInit, AfterViewInit {
     private _renderer;
     _elementRef: ElementRef;
-    params: NavParams;
     modalCtrl: ModalController;
     ref: ChangeDetectorRef;
     calSvc: CalendarService;
@@ -23,7 +22,7 @@ export declare class CalendarModal implements OnInit, AfterViewInit {
     _scrollLock: boolean;
     _d: any;
     actualFirstTime: number | any;
-    constructor(_renderer: Renderer2, _elementRef: ElementRef, params: NavParams, modalCtrl: ModalController, ref: ChangeDetectorRef, calSvc: CalendarService);
+    constructor(_renderer: Renderer2, _elementRef: ElementRef, modalCtrl: ModalController, ref: ChangeDetectorRef, calSvc: CalendarService);
     ngOnInit(): void;
     ngAfterViewInit(): void;
     init(): void;
