@@ -7,7 +7,7 @@
     "build": "rm -rf dist && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "mv ./dist/ion-calendar/* ./ && rmdir /s /q ./dist"
+    "postinstall": "mv ./dist/ion-calendar/* ./ && rm -rf ./dist"
 
   },
   "private": true,
