@@ -42,6 +42,6 @@
     "typescript": "4.3.5"
   },
   "files": [
-    "dist/ion-calendar"
+    "dist"
   ]
 }
