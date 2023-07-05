@@ -30,11 +30,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "module": "esnext",
-    "lib": [
-      "es2015",
-      "dom"
-    ]
+    "lib": ["dom", "es2017"],
+    "module": "es2015",
+    
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
