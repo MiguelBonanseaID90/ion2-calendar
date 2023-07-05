@@ -7,7 +7,7 @@
     "build": "rm -rf dist && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "mv ./dist/ion-calendar/* ./ && rmdir ./dist"
+    "postinstall": "mv ./dist/ion-calendar/* ./ && rmdir /s /q ./dist"
 
   },
   "private": true,
@@ -41,6 +41,5 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^12.1.1",
     "typescript": "4.3.5"
-  },
-  "files": ["dist"]
+  }
 }
