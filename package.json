@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "rm -rf dist && ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "postinstall": "ngcc"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -42,6 +41,6 @@
     "typescript": "4.3.5"
   },
   "files": [
-    "dist"
+    "dist/ion-calendar/*"
   ]
 }
