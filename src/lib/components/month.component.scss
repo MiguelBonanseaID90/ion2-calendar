@@ -44,7 +44,7 @@
   text-align: center;
 }
 :host button.days-btn[disabled] p {
-  color: rgba(0, 0, 0, 0.25);
+  color: #333;
 }
 :host button.days-btn.on-selected small {
   transition: bottom 0.3s;
@@ -71,7 +71,7 @@
 }
 :host .primary .days .last-month-day p,
 :host .primary .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
+  color: #333;
 }
 :host .primary .days .today.on-selected p,
 :host .primary .days .marked.on-selected p {
@@ -219,7 +219,7 @@
 }
 :host .secondary .days .last-month-day p,
 :host .secondary .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
+  color: #333;
 }
 :host .secondary .days .today.on-selected p,
 :host .secondary .days .marked.on-selected p {
@@ -367,7 +367,7 @@
 }
 :host .danger .days .last-month-day p,
 :host .danger .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
+  color: #333;
 }
 :host .danger .days .today.on-selected p,
 :host .danger .days .marked.on-selected p {
@@ -515,7 +515,7 @@
 }
 :host .dark .days .last-month-day p,
 :host .dark .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
+  color: #333;
 }
 :host .dark .days .today.on-selected p,
 :host .dark .days .marked.on-selected p {
@@ -663,7 +663,7 @@
 }
 :host .light .days .last-month-day p,
 :host .light .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
+  color: #333;
 }
 :host .light .days .today.on-selected p,
 :host .light .days .marked.on-selected p {
@@ -809,7 +809,7 @@
 }
 :host .cal-color .days .last-month-day p,
 :host .cal-color .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
+  color: #333;
 }
 :host .cal-color .days .today.on-selected p,
 :host .cal-color .days .marked.on-selected p {
