@@ -69,10 +69,7 @@
 :host .primary .days .today p {
   font-weight: 700;
 }
-:host .primary .days .last-month-day p,
-:host .primary .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
-}
+
 :host .primary .days .today.on-selected p,
 :host .primary .days .marked.on-selected p {
   color: #fff;
@@ -217,10 +214,7 @@
 :host .secondary .days .today p {
   font-weight: 700;
 }
-:host .secondary .days .last-month-day p,
-:host .secondary .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
-}
+
 :host .secondary .days .today.on-selected p,
 :host .secondary .days .marked.on-selected p {
   color: #fff;
@@ -365,10 +359,7 @@
 :host .danger .days .today p {
   font-weight: 700;
 }
-:host .danger .days .last-month-day p,
-:host .danger .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
-}
+
 :host .danger .days .today.on-selected p,
 :host .danger .days .marked.on-selected p {
   color: #fff;
@@ -513,10 +504,7 @@
 :host .dark .days .today p {
   font-weight: 700;
 }
-:host .dark .days .last-month-day p,
-:host .dark .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
-}
+
 :host .dark .days .today.on-selected p,
 :host .dark .days .marked.on-selected p {
   color: #fff;
@@ -661,10 +649,7 @@
 :host .light .days .today p {
   font-weight: 700;
 }
-:host .light .days .last-month-day p,
-:host .light .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
-}
+
 :host .light .days .today.on-selected p,
 :host .light .days .marked.on-selected p {
   color: #a0a0a0;
@@ -807,10 +792,7 @@
 :host .cal-color .days .today p {
   font-weight: 700;
 }
-:host .cal-color .days .last-month-day p,
-:host .cal-color .days .next-month-day p {
-  color: rgba(0, 0, 0, 0.25);
-}
+
 :host .cal-color .days .today.on-selected p,
 :host .cal-color .days .marked.on-selected p {
   color: #fff;
