@@ -58,5 +58,5 @@ export declare class CalendarComponent implements ControlValueAccessor, OnInit {
     registerOnTouched(fn: () => {}): void;
     _writeValue(value: any): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CalendarComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<CalendarComponent, "ion-calendar", never, { "format": "format"; "type": "type"; "readonly": "readonly"; "options": "options"; }, { "change": "change"; "monthChange": "monthChange"; "select": "select"; "selectStart": "selectStart"; "selectEnd": "selectEnd"; }, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CalendarComponent, "ion-calendar", never, { "format": "format"; "type": "type"; "readonly": "readonly"; "options": "options"; }, { "change": "change"; "monthChange": "monthChange"; "select": "select"; "selectStart": "selectStart"; "selectEnd": "selectEnd"; }, never, never, false>;
 }

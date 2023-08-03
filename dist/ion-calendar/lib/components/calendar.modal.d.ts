@@ -51,5 +51,5 @@ export declare class CalendarModal implements OnInit, AfterViewInit {
     _getDayFormatted(data: any): string | null;
     trackByIndex(index: number, momentDate: CalendarMonth): number;
     static ɵfac: i0.ɵɵFactoryDeclaration<CalendarModal, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<CalendarModal, "ion-calendar-modal", never, { "options": "options"; }, {}, never, ["[sub-header]"]>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CalendarModal, "ion-calendar-modal", never, { "options": "options"; }, {}, never, ["[sub-header]"], false>;
 }

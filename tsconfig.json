@@ -29,9 +29,9 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
+    "target": "es2020",
     "lib": ["dom", "es2017"],
-    "module": "es2015",
+    "module": "es2020",
     
   },
   "angularCompilerOptions": {
@@ -39,7 +39,7 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
-    "compilationMode": "partial",
+    "compilationMode": "full",
     "skipTemplateCodegen": true,
     "strictMetadataEmit": true,
     "enableResourceInlining": true,

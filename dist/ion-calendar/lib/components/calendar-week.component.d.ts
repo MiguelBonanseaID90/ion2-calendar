@@ -9,5 +9,5 @@ export declare class CalendarWeekComponent {
     set weekStart(value: number | undefined);
     adjustSort(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CalendarWeekComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<CalendarWeekComponent, "ion-calendar-week", never, { "color": "color"; "weekArray": "weekArray"; "weekStart": "weekStart"; }, {}, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CalendarWeekComponent, "ion-calendar-week", never, { "color": "color"; "weekArray": "weekArray"; "weekStart": "weekStart"; }, {}, never, never, false>;
 }

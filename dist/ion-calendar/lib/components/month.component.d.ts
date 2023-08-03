@@ -36,5 +36,5 @@ export declare class MonthComponent implements ControlValueAccessor, AfterViewIn
     isSelected(time: number): any;
     onSelected(item: CalendarDay): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<MonthComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<MonthComponent, "ion-calendar-month", never, { "month": "month"; "pickMode": "pickMode"; "isSaveHistory": "isSaveHistory"; "id": "id"; "readonly": "readonly"; "color": "color"; "maxMultiDates": "maxMultiDates"; }, { "change": "change"; "select": "select"; "selectStart": "selectStart"; "selectEnd": "selectEnd"; }, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MonthComponent, "ion-calendar-month", never, { "month": "month"; "pickMode": "pickMode"; "isSaveHistory": "isSaveHistory"; "id": "id"; "readonly": "readonly"; "color": "color"; "maxMultiDates": "maxMultiDates"; }, { "change": "change"; "select": "select"; "selectStart": "selectStart"; "selectEnd": "selectEnd"; }, never, never, false>;
 }

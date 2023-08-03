@@ -13,19 +13,18 @@ export function calendarController(modalCtrl: ModalController, calSvc: CalendarS
 }
 
 @NgModule({
-  imports: [CommonModule, IonicModule, FormsModule],
-  declarations: CALENDAR_COMPONENTS,
-  exports: CALENDAR_COMPONENTS,
-  entryComponents: CALENDAR_COMPONENTS,
-  providers: [
-    CalendarService,
-    {
-      provide: CalendarController,
-      useFactory: calendarController,
-      deps: [ModalController, CalendarService],
-    },
-  ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    imports: [CommonModule, IonicModule, FormsModule],
+    declarations: CALENDAR_COMPONENTS,
+    exports: CALENDAR_COMPONENTS,
+    providers: [
+        CalendarService,
+        {
+            provide: CalendarController,
+            useFactory: calendarController,
+            deps: [ModalController, CalendarService],
+        },
+    ],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class CalendarModule {
   static forRoot(defaultOptions: CalendarModalOptions = {}): ModuleWithProviders<CalendarModule> {
